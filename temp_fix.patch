@@ -1,0 +1,2 @@
+# Replace line 114 and similar error lines
+console.log(chalk.red('❌ Token price update failed:', (error as Error).message));
