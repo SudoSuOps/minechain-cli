@@ -1,0 +1,26 @@
+{
+  "name": "@sudosuops/minechain-cli",
+  "version": "1.0.0",
+  "description": "Terminal-grade infrastructure ops CLI",
+  "main": "dist/index.js",
+  "bin": {
+    "minechain": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "author": "SudoSuOps",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.0.0",
+    "ora": "^6.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
